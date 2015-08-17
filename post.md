@@ -123,11 +123,11 @@ Debugging JavaScript can be very useful when the Console alone isn't good enough
 
 In the Sources tab you have access to all the scripts currently loaded by Chrome.  By opening `app.js` and clicking a line number, I can toggle a breakpoint. A list of all breakpoints (whether active or not) is visible in the bottom on the window.
 
-Let's set a breakpoint at the beginning of `addNewGame()`.  As soon as the function runs, whether through the UI or from the Console, the browser will pause execution.  The Scope panel show you the current state of all variable in both window and global scope.  You can even use the Console to run commands against the current snapshop of the variables.
+Let's set a breakpoint at the beginning of `addNewGame()`.  As soon as the function runs, whether through the UI or from the Console, the browser will pause execution.  The Scope panel shows the current state of all variable in both window and global scope.  You can even use the Console to run commands against the current snapshot of the variables.
 
-Using F10 (Step-Over) will take you step-by-step through the function and after each step you can see how the variables change in Scope.  You can expand any objects to drill-down into their properties.
+Using F10 (Step-Over) will take you step-by-step through the function and after each step you can see how the variables change in Scope.  You can expand any object to drill-down into its properties.
 
-Clicking the play button (F8) will continue execution until the next breakpoint.  If no other breakpoints are set it will playthough to the end of the function.
+Clicking the play button (F8) will continue execution until the next breakpoint.  If no other breakpoints are set it will play through to the end of the function.
 
 ##Deeper Dive
 We just barely scratched the surface of what Chrome DevTools has to offer but this will get any developer started. We'll take a look at advanced features such as monitoring network traffic and performance in Part 2. We'll also look at some ways to use CDT when working with frameworks like AngularJS.
