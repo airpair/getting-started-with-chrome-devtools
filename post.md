@@ -135,3 +135,7 @@ Clicking the play button (F8) will continue execution until the next breakpoint.
 
 ##Deeper Dive
 We just barely scratched the surface of what Chrome DevTools has to offer but this will get any developer started. We'll take a look at advanced features such as monitoring network traffic and performance in Part 2. We'll also look at some ways to use CDT when working with frameworks like AngularJS.
+
+<!-- You may want to include ", Part 1" in the title of this article.
+     After you write Part 2, edit this article again and link to it both
+     at the top of this article and at the end. -->
