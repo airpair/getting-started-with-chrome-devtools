@@ -76,15 +76,15 @@ When viewing an element, you'll see a list of all the rules/styles that apply an
 ##Console
 CDT provides access to the browser's JavaScript runtime through the Console.  You can use the Console to invoke and modify JavaScript or just treat it like a terminal. For example, you can:
 
-<ul>
-    <li>Log objects for debugging</li>
-    <li>Run functions</li>
-    <li>Add new functions</li>
-    <li>Assign event handlers</li>
-    <li>Do math!</li>
-</ul>
+- Log objects for debugging
+- Run functions
+- Add new functions
+- Assign event handlers
+- Do math!
 
 Let's review the JavaScript for this page before looking at another video. View the annotated source on <a href="https://github.com/AnonymousFunction/anonymousfunction.github.com/blob/master/airpair/dev-tools/app.js" target="_blank">GitHub</a>.
+
+<!-- ^^^ Remember to update the above link if you fork the GH repo. -->
 
 ````javascript
 console.log("Hello World!");
