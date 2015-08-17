@@ -5,7 +5,7 @@ Chrome DevTools (CDT) is one of the most useful tools for web developers. It all
 
 <img src="http://i3.ytimg.com/vi/Zy6KWBEoDRU/mqdefault.jpg">
 
-In the dark ages, we were forced to add debug HTML and JavaScript alerts if we wanted to see what was happening in the browser.  Not to bore you with old-timey stories, I just want to provide context so kids these days know how easy they have it.
+In the Dark Ages, we were forced to add debug HTML and JavaScript alerts if we wanted to see what was happening in the browser.
 
 ##Our Workspace
 
