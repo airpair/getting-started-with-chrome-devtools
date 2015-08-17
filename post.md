@@ -129,5 +129,9 @@ Using F10 (Step-Over) will take you step-by-step through the function and after 
 
 Clicking the play button (F8) will continue execution until the next breakpoint.  If no other breakpoints are set it will play through to the end of the function.
 
+<!-- Throughout this article I thought it would be nice to have little
+     icons embedded amongst the text to show what some of these buttons
+     look like. For example, the Step-Over, Play, and Console icons. -->
+
 ##Deeper Dive
 We just barely scratched the surface of what Chrome DevTools has to offer but this will get any developer started. We'll take a look at advanced features such as monitoring network traffic and performance in Part 2. We'll also look at some ways to use CDT when working with frameworks like AngularJS.
