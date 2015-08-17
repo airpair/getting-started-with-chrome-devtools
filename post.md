@@ -53,12 +53,12 @@ Tag names and attributes can also be changed. Double-click an attribute or its v
 ***Keep in mind that any HTML/JavaScript/CSS changes made in CDT are lost if the page refreshes.***
 
 ### Shortcuts
-| Key               | Action |
+| Mac OS X      | Windows | Action |
 |-------------------|-------------|
-| Cmd(⌘) + Z | Undo last change |
-| Cmd(⌘) + &uarr; (&darr;) &nbsp; | Move element up/down |
-| H                 | Hide element   |
-| Del               | Delete element |
+| Cmd(⌘) + Z | Ctrl + Z | Undo last change |
+| Cmd(⌘) + &uarr; (&darr;) &nbsp; | Ctrl + &uarr; (&darr;) &nbsp; | Move element up/down |
+| H | H                 | Hide element   |
+| Del | Backspace               | Delete element |
 
 
 ##Styles
