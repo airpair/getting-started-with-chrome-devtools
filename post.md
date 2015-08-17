@@ -12,6 +12,9 @@ In the Dark Ages, we were forced to add debug HTML and JavaScript alerts if we w
 Although frameworks are all the rage these days, we will look at examples on a simple site built with pure HTML, JavaScript, and CSS.  This will help us focus on the features of CDT rather than worrying about how a particular framework generates markup or handles events and scope.
 
 ## Sample Site
+<!-- You may want to fork Anonymous Function and point to the version
+     that won't change over time (since you've mentioned you want to
+     revamp your web site). -->
 **Site:** Available on <a href="http://anonymous-function.com/airpair/dev-tools/" target="_blank">Anonymous-Function</a><br>
 **Source:** Available on <a href="https://github.com/AnonymousFunction/anonymousfunction.github.com/tree/master/airpair/dev-tools" target="_blank">GitHub</a>
 
