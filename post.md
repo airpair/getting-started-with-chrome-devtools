@@ -27,6 +27,8 @@ Let's look at what features our simple site has:
 ## Starting DevTools
 To open DevTools, right-click anywhere in the browser's viewport and select **Inspect Element**. This will open DevTools and bring focus to the selected element in the window.
 
+<!-- Maybe wrap these in some kind of "Pro Tip" box and use icons
+     instead/in addition to words? -->
 **Mac:** Cmd(⌘) + Option + I
 
 **Windows:** F12 -or- Ctrl + Shift + I
