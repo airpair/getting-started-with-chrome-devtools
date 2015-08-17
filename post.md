@@ -82,10 +82,6 @@ CDT provides access to the browser's JavaScript runtime through the Console.  Yo
 - Assign event handlers
 - Do math!
 
-Let's review the JavaScript for this page before looking at another video. View the annotated source on <a href="https://github.com/AnonymousFunction/anonymousfunction.github.com/blob/master/airpair/dev-tools/app.js" target="_blank">GitHub</a>.
-
-<!-- ^^^ Remember to update the above link if you fork the GH repo. -->
-
 ````javascript
 console.log("Hello World!");
 
@@ -107,7 +103,11 @@ function addNewGame(consoleText, titleText) {
     console.log("Game Added!", consoleText, titleText);
 }
 ````
-<br>
+
+Review the JavaScript above before diving into the next video. Additionally, you can view the annotated source on <a href="https://github.com/AnonymousFunction/anonymousfunction.github.com/blob/master/airpair/dev-tools/app.js" target="_blank">GitHub</a>.
+
+<!-- ^^^ Remember to update the above link if you fork the GH repo. -->
+
 <iframe width="420" height="315" src="https://www.youtube.com/embed/QDMowuDTunA" frameborder="0" allowfullscreen></iframe>
 
 This first thing we see in the Console is the text "Hello World".  That comes from line 1 in the JavaScript and is a good way to make sure the browser is loading the script properly when you add a new file.
