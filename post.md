@@ -3,7 +3,7 @@ Being effective in your working environment is very important to developers. Man
 
 Chrome DevTools (CDT) is one of the most useful tools for web developers. It allows us to create, manipulate, and debug websites in the browser. Before tools like CDT and Firebug, working in the browser's runtime environment was like getting dental work done at a Kenny G concert.
 
-<img src="http://i3.ytimg.com/vi/Zy6KWBEoDRU/mqdefault.jpg">
+![Party on, Garth](http://i3.ytimg.com/vi/Zy6KWBEoDRU/mqdefault.jpg)
 
 In the Dark Ages, we were forced to add debug HTML and JavaScript alerts if we wanted to see what was happening in the browser.
 
@@ -19,12 +19,10 @@ Although frameworks are all the rage these days, we will look at examples on a s
 **Source:** Available on <a href="https://github.com/AnonymousFunction/anonymousfunction.github.com/tree/master/airpair/dev-tools" target="_blank">GitHub</a>
 
 Let's look at what features our simple site has:
-<ul>
-    <li>Table of games</li>
-    <li>Inputs and a button to add new games</li>
-    <li>Bold games have a CSS class of "radical"</li>
-    <li>Hover over a game to hightlight it</li>
-</ul>
+- Table of games
+- Inputs and a button to add new games
+- Bold games have a CSS class of "radical"
+- Hover over a game to hightlight it
 
 ## Starting DevTools
 To open DevTools, right-click anywhere in the browser's viewport and select **Inspect Element**. This will open DevTools and bring focus to the selected element in the window.
