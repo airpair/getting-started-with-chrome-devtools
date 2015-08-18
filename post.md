@@ -20,7 +20,7 @@ Let's look at what features our simple site has:
     <li>Table of games</li>
     <li>Inputs and a button to add new games</li>
     <li>Bold games have a CSS class of "radical"</li>
-    <li>Hover over a game to hightlight it</li>
+    <li>Hover over a game to highlight it</li>
 </ul>
 
 ## Starting DevTools
