@@ -12,6 +12,9 @@ In the Dark Ages, we were forced to add debug HTML and JavaScript alerts if we w
 Although frameworks are all the rage these days, we will look at examples on a simple site built with pure HTML, JavaScript, and CSS.  This will help us focus on the features of CDT rather than worrying about how a particular framework generates markup or handles events and scope.
 
 ## Sample Site
+<!-- You may want to fork Anonymous Function and point to the version
+     that won't change over time (since you've mentioned you want to
+     revamp your web site). -->
 **Site:** Available on <a href="http://anonymous-function.com/airpair/dev-tools/" target="_blank">Anonymous-Function</a><br>
 **Source:** Available on <a href="https://github.com/AnonymousFunction/anonymousfunction.github.com/tree/master/airpair/dev-tools" target="_blank">GitHub</a>
 
@@ -24,38 +27,38 @@ Let's look at what features our simple site has:
 ## Starting DevTools
 To open DevTools, right-click anywhere in the browser's viewport and select **Inspect Element**. This will open DevTools and bring focus to the selected element in the window.
 
+<!-- Maybe wrap these in some kind of "Pro Tip" box and use icons
+     instead/in addition to words? -->
 **Mac:** Cmd(⌘) + Option + I
 
 **Windows:** F12 -or- Ctrl + Shift + I
 
 ## HTML Elements
 
-***Keep in mind that any HTML/JavaScript/CSS changes made in CDT are lost if the page refreshes***
-
 You can edit HTML on-the-fly using CDT.  Let's take a look at how we can change some HTML: 
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/4ARMf5jd988" frameborder="0" allowfullscreen></iframe>
 
-Using the magnifying glass, I select the element I want to change. Then I double-click on the value in the Elements pane to edit it.  Alternatively, I could drill down through the nodes to find the value.
+Using the magnifying glass, I select the element I want to change.  Alternatively, I could drill down through the nodes to find the value.
 
-Select **Edit as HTML** from the right-click-menu to open an inline text editor. This makes it easier to do any type of change or multiple changes.
+When you find the element you wish to change, right-click on it to choose from common actions including:
 
-Select **Add Attribute** from the right-click-menu to add a specific HTML attribute such as **class** or **style**
+1. **Edit as HTML**. Open an inline text editor. This makes it easier to do any type of change or multiple changes.
+2. **Add Attribute**. Add a specific HTML attribute such as **class** or **style**.
+3. **Delete**. Remove an entire element, including its children. Pressing the Delete key will also do this.
+4. **Force Element State**. This submenu allows you to inspect styles applied to specific situations such as an anchor's *:hover* or *:visited* state.
 
-Tag names and attributes can also be changed, just double-click an attribute or its value to change it just like the element's text value.
+Tag names and attributes can also be changed. Double-click an attribute or its value to change it using the inline textbox that appears.
 
-You can use the delete key or select **Delete** from the right-click menu to remove entire nodes and their children. 
-
-Also from the right-click menu you have the option to force an element state such as hover or active.  This makes it much easier to inspect the applied styles for those elements.
-
+***Keep in mind that any HTML/JavaScript/CSS changes made in CDT are lost if the page refreshes.***
 
 ### Shortcuts
-| Key               | Action |
+| Mac OS X      | Windows | Action |
 |-------------------|-------------|
-| Cmd(⌘) + Z | Undo last change |
-| Cmd(⌘) + &uarr; (&darr;) &nbsp; | Move element up/down |
-| H                 | Hide element   |
-| Del               | Delete element |
+| Cmd(⌘) + Z | Ctrl + Z | Undo last change |
+| Cmd(⌘) + &uarr; (&darr;) &nbsp; | Ctrl + &uarr; (&darr;) &nbsp; | Move element up/down |
+| H | H                 | Hide element   |
+| Del | Backspace               | Delete element |
 
 
 ##Styles
@@ -73,15 +76,11 @@ When viewing an element, you'll see a list of all the rules/styles that apply an
 ##Console
 CDT provides access to the browser's JavaScript runtime through the Console.  You can use the Console to invoke and modify JavaScript or just treat it like a terminal. For example, you can:
 
-<ul>
-    <li>Log objects for debugging</li>
-    <li>Run functions</li>
-    <li>Add new functions</li>
-    <li>Assign event handlers</li>
-    <li>Do math!</li>
-</ul>
-
-Let's review the JavaScript for this page before looking at another video. View the annotated source on <a href="https://github.com/AnonymousFunction/anonymousfunction.github.com/blob/master/airpair/dev-tools/app.js" target="_blank">GitHub</a>.
+- Log objects for debugging
+- Run functions
+- Add new functions
+- Assign event handlers
+- Do math!
 
 ````javascript
 console.log("Hello World!");
@@ -104,7 +103,11 @@ function addNewGame(consoleText, titleText) {
     console.log("Game Added!", consoleText, titleText);
 }
 ````
-<br>
+
+Review the JavaScript above before diving into the next video. Additionally, you can view the annotated source on <a href="https://github.com/AnonymousFunction/anonymousfunction.github.com/blob/master/airpair/dev-tools/app.js" target="_blank">GitHub</a>.
+
+<!-- ^^^ Remember to update the above link if you fork the GH repo. -->
+
 <iframe width="420" height="315" src="https://www.youtube.com/embed/QDMowuDTunA" frameborder="0" allowfullscreen></iframe>
 
 This first thing we see in the Console is the text "Hello World".  That comes from line 1 in the JavaScript and is a good way to make sure the browser is loading the script properly when you add a new file.
@@ -120,11 +123,19 @@ Debugging JavaScript can be very useful when the Console alone isn't good enough
 
 In the Sources tab you have access to all the scripts currently loaded by Chrome.  By opening `app.js` and clicking a line number, I can toggle a breakpoint. A list of all breakpoints (whether active or not) is visible in the bottom on the window.
 
-Let's set a breakpoint at the beginning of `addNewGame()`.  As soon as the function runs, whether through the UI or from the Console, the browser will pause execution.  The Scope panel show you the current state of all variable in both window and global scope.  You can even use the Console to run commands against the current snapshop of the variables.
+Let's set a breakpoint at the beginning of `addNewGame()`.  As soon as the function runs, whether through the UI or from the Console, the browser will pause execution.  The Scope panel shows the current state of all variable in both window and global scope.  You can even use the Console to run commands against the current snapshot of the variables.
 
-Using F10 (Step-Over) will take you step-by-step through the function and after each step you can see how the variables change in Scope.  You can expand any objects to drill-down into their properties.
+Using F10 (Step-Over) will take you step-by-step through the function and after each step you can see how the variables change in Scope.  You can expand any object to drill-down into its properties.
 
-Clicking the play button (F8) will continue execution until the next breakpoint.  If no other breakpoints are set it will playthough to the end of the function.
+Clicking the play button (F8) will continue execution until the next breakpoint.  If no other breakpoints are set it will play through to the end of the function.
+
+<!-- Throughout this article I thought it would be nice to have little
+     icons embedded amongst the text to show what some of these buttons
+     look like. For example, the Step-Over, Play, and Console icons. -->
 
 ##Deeper Dive
 We just barely scratched the surface of what Chrome DevTools has to offer but this will get any developer started. We'll take a look at advanced features such as monitoring network traffic and performance in Part 2. We'll also look at some ways to use CDT when working with frameworks like AngularJS.
+
+<!-- You may want to include ", Part 1" in the title of this article.
+     After you write Part 2, edit this article again and link to it both
+     at the top of this article and at the end. -->
