@@ -105,7 +105,7 @@ function addNewGame(consoleText, titleText) {
 }
 ````
 <br>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/QDMowuDTunA" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="492" src="https://www.youtube.com/embed/QDMowuDTunA" frameborder="0" allowfullscreen></iframe>
 
 This first thing we see in the Console is the text "Hello World".  That comes from line 1 in the JavaScript and is a good way to make sure the browser is loading the script properly when you add a new file.
 
