@@ -30,23 +30,22 @@ To open DevTools, right-click anywhere in the browser's viewport and select **In
 
 ## HTML Elements
 
-***Keep in mind that any HTML/JavaScript/CSS changes made in CDT are lost if the page refreshes***
-
 You can edit HTML on-the-fly using CDT.  Let's take a look at how we can change some HTML: 
 
 <iframe width="640" height="492" src="https://www.youtube.com/embed/4ARMf5jd988" frameborder="0" allowfullscreen></iframe>
 
-Using the magnifying glass, I select the element I want to change. Then I double-click on the value in the Elements pane to edit it.  Alternatively, I could drill down through the nodes to find the value.
+Using the magnifying glass, I select the element I want to change.  Alternatively, I could drill down through the nodes to find the value.
 
-Select **Edit as HTML** from the right-click-menu to open an inline text editor. This makes it easier to do any type of change or multiple changes.
+When you find the element you wish to change, right-click on it to choose from common actions including:
 
-Select **Add Attribute** from the right-click-menu to add a specific HTML attribute such as **class** or **style**
+1. **Edit as HTML**. Open an inline text editor. This makes it easier to do any type of change or multiple changes.
+2. **Add Attribute**. Add a specific HTML attribute such as **class** or **style**.
+3. **Delete**. Remove an entire element, including its children. Pressing the Delete key will also do this.
+4. **Force Element State**. This submenu allows you to inspect styles applied to specific situations such as an anchor's *:hover* or *:visited* state.
 
-Tag names and attributes can also be changed, just double-click an attribute or its value to change it just like the element's text value.
+Tag names and attributes can also be changed. Double-click an attribute or its value to change it using the inline textbox that appears.
 
-You can use the delete key or select **Delete** from the right-click menu to remove entire nodes and their children. 
-
-Also from the right-click menu you have the option to force an element state such as hover or active.  This makes it much easier to inspect the applied styles for those elements.
+***Keep in mind that any HTML/JavaScript/CSS changes made in CDT are lost if the page refreshes***
 
 
 ### Shortcuts
