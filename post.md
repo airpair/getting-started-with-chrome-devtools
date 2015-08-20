@@ -34,7 +34,7 @@ To open DevTools, right-click anywhere in the browser's viewport and select **In
 
 You can edit HTML on-the-fly using CDT.  Let's take a look at how we can change some HTML: 
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/4ARMf5jd988" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="492" src="https://www.youtube.com/embed/4ARMf5jd988" frameborder="0" allowfullscreen></iframe>
 
 Using the magnifying glass, I select the element I want to change. Then I double-click on the value in the Elements pane to edit it.  Alternatively, I could drill down through the nodes to find the value.
 
@@ -62,7 +62,7 @@ Also from the right-click menu you have the option to force an element state suc
 
 You can also view and change styles using CDT.  You can change the CSS of a single element, add new or modify existing rules, and even see what rules apply to specific elements.
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/pfWqSaJRK0s" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="492" src="https://www.youtube.com/embed/pfWqSaJRK0s" frameborder="0" allowfullscreen></iframe>
 
 When an element is selected, you can click on **element.style** to apply inline styles.  CDT provides an auto-complete to help with both properties and values.  Use **Tab** to shortcut between properties and values and **Shift + Tab** to go backwards.  You can also toggle specific styles on/off by using the checkbox next to the property name.
 
@@ -116,7 +116,7 @@ You can also reassign function/variable definitions in the the Console.  In the 
 ##Debugging
 Debugging JavaScript can be very useful when the Console alone isn't good enough.  You can use the `debugger` keyword anywhere in your JavaScript and CDT will pause the execution as long as it's open. Video time.
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/bnkLJCaQtQo" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="492" src="https://www.youtube.com/embed/bnkLJCaQtQo" frameborder="0" allowfullscreen></iframe>
 
 In the Sources tab you have access to all the scripts currently loaded by Chrome.  By opening `app.js` and clicking a line number, I can toggle a breakpoint. A list of all breakpoints (whether active or not) is visible in the bottom on the window.
 
