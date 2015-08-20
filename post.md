@@ -50,13 +50,12 @@ Also from the right-click menu you have the option to force an element state suc
 
 
 ### Shortcuts
-| Key               | Action |
+| Mac OS X      | Windows | Action |
 |-------------------|-------------|
-| Cmd(⌘) + Z | Undo last change |
-| Cmd(⌘) + &uarr; (&darr;) &nbsp; | Move element up/down |
-| H                 | Hide element   |
-| Del               | Delete element |
-
+| Cmd(⌘) + Z | Ctrl + Z | Undo last change |
+| Cmd(⌘) + &uarr; (&darr;) &nbsp; | Ctrl + &uarr; (&darr;) &nbsp; | Move element up/down |
+| H | H                 | Hide element   |
+| Del | Backspace               | Delete element |
 
 ##Styles
 
@@ -81,8 +80,6 @@ CDT provides access to the browser's JavaScript runtime through the Console.  Yo
     <li>Do math!</li>
 </ul>
 
-Let's review the JavaScript for this page before looking at another video. View the annotated source on <a href="https://github.com/AnonymousFunction/anonymousfunction.github.com/blob/master/airpair/dev-tools/app.js" target="_blank">GitHub</a>.
-
 ````javascript
 console.log("Hello World!");
 
@@ -104,7 +101,8 @@ function addNewGame(consoleText, titleText) {
     console.log("Game Added!", consoleText, titleText);
 }
 ````
-<br>
+Review the JavaScript above before diving into the next video. Additionally, you can view the annotated source on <a href="https://github.com/AnonymousFunction/anonymousfunction.github.com/blob/master/airpair/dev-tools/app.js" target="_blank">GitHub</a>.
+<br><br>
 <iframe width="640" height="492" src="https://www.youtube.com/embed/QDMowuDTunA" frameborder="0" allowfullscreen></iframe>
 
 This first thing we see in the Console is the text "Hello World".  That comes from line 1 in the JavaScript and is a good way to make sure the browser is loading the script properly when you add a new file.
