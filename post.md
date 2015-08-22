@@ -1,3 +1,6 @@
+Synopsis
+> New to web development or looking to get started? Learning **Chrome DevTools** will help cut down on time spent building and debugging web sites.  This walkthrough covers tips and tricks for beginners and includes a live sample site with videos and source code.
+
 ## Background
 Being effective in your working environment is very important to developers. Many web developers I've met transitioned from server-side development, but never got any training on their new set of tools.
 
